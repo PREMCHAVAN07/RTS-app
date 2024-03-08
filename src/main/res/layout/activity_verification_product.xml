@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ClientDetail">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout"
+        android:background="@color/navy">
+
+        <TextView
+            android:id="@+id/textView38"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Verification"
+            android:textSize="30dp"
+            android:textColor="@color/white"
+            />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="Registration Number"
+                android:paddingLeft="10dp"/>
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/registrationNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:height="40dp"
+                android:background="@drawable/borderfield"
+                android:paddingLeft="10dp"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:text="Search"
+                android:id="@+id/search"/>
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="401dp"
+                android:layout_height="42dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="5dp"
+                android:background="@color/blue"
+                android:text="Name OF Establishment"
+                android:layout_gravity="center"
+                android:paddingLeft="15dp"
+                android:paddingTop="5dp"
+                android:textSize="20dp"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:id="@+id/nameofest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:height="40dp"
+                android:background="@drawable/borderfield"
+                android:paddingLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="401dp"
+                android:layout_height="42dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="5dp"
+                android:background="@color/blue"
+                android:text="Registration Date"
+                android:layout_gravity="center"
+                android:paddingLeft="15dp"
+                android:paddingTop="5dp"
+                android:textSize="20dp"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/editTextDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:height="40dp"
+                android:background="@drawable/borderfield"
+                android:focusable="false"
+                android:padding="10dp" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="401dp"
+                android:layout_height="42dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="5dp"
+                android:background="@color/blue"
+                android:text="Establishment Address"
+                android:layout_gravity="center"
+                android:paddingLeft="15dp"
+                android:paddingTop="5dp"
+                android:textSize="20dp"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Address"
+                android:paddingLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/estaddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:height="40dp"
+                android:background="@drawable/borderfield"
+                android:paddingLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Landmark"
+                android:paddingLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/estlandmark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:height="40dp"
+                android:background="@drawable/borderfield"
+                android:paddingLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="PinCode"
+                android:paddingLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/estpincode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:height="40dp"
+                android:background="@drawable/borderfield"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="10dp"/>
+
+
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="401dp"
+                android:layout_height="42dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="5dp"
+                android:background="@color/blue"
+                android:text="Owner Name"
+                android:layout_gravity="center"
+                android:paddingLeft="15dp"
+                android:paddingTop="5dp"
+                android:textSize="20dp"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:id="@+id/ownername"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:height="40dp"
+                android:background="@drawable/borderfield"
+                android:paddingLeft="10dp"/>
+
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="401dp"
+                android:layout_height="42dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="5dp"
+                android:background="@color/blue"
+                android:text="Category Establishment"
+                android:layout_gravity="center"
+                android:paddingLeft="15dp"
+                android:paddingTop="5dp"
+                android:textSize="20dp"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Category Details"
+                android:paddingLeft="10dp"/>
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/categoryDetail2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:height="40dp"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/borderfield"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="10dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

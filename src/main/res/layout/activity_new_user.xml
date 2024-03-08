@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".new_user">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout"
+        android:background="@color/navy">
+
+        <TextView
+            android:id="@+id/textView38"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Create New User"
+            android:textSize="30dp"
+            android:textColor="@color/white"
+            />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearLayout">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvUserNameLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User Name"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/etUserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvUserNameLabel"
+            android:layout_marginTop="8dp"
+            android:hint="Enter your user name"/>
+
+        <!-- Customer Name -->
+        <TextView
+            android:id="@+id/tvCustomerNameLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/etUserName"
+            android:layout_marginTop="16dp"
+            android:text="Customer Name"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/etCustomerName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvCustomerNameLabel"
+            android:layout_marginTop="8dp"
+            android:hint="Enter your customer name"/>
+
+        <!-- Mobile Number -->
+        <TextView
+            android:id="@+id/tvMobileNumberLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/etCustomerName"
+            android:layout_marginTop="16dp"
+            android:text="Mobile Number"
+            android:textStyle="bold"/>
+
+            <!-- Address -->
+            <EditText
+                android:id="@+id/etMobileNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvMobileNumberLabel"
+                android:layout_marginTop="8dp"
+                android:hint="Enter your mobile number"
+                android:inputType="phone" />
+
+            <TextView
+            android:id="@+id/tvAddressLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/etMobileNumber"
+            android:layout_marginTop="16dp"
+            android:text="Address"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/etAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvAddressLabel"
+            android:layout_marginTop="8dp"
+            android:hint="Enter your address"/>
+
+        <!-- Pin Code -->
+        <TextView
+            android:id="@+id/tvPinCodeLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/etAddress"
+            android:layout_marginTop="16dp"
+            android:text="Pin Code"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/etPinCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvPinCodeLabel"
+            android:layout_marginTop="8dp"
+            android:inputType="number"
+            android:hint="Enter your pin code"/>
+
+        <!-- Landmark -->
+        <TextView
+            android:id="@+id/tvLandmarkLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/etPinCode"
+            android:layout_marginTop="16dp"
+            android:text="Landmark"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/etLandmark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvLandmarkLabel"
+            android:layout_marginTop="8dp"
+            android:hint="Enter the landmark"/>
+
+        <!-- Email ID -->
+        <TextView
+            android:id="@+id/tvEmailIdLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/etLandmark"
+            android:layout_marginTop="16dp"
+            android:text="Email ID"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/etEmailId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvEmailIdLabel"
+            android:layout_marginTop="8dp"
+            android:inputType="textEmailAddress"
+            android:hint="Enter your email ID"/>
+
+        <!-- Generate OTP Button -->
+        <Button
+            android:id="@+id/btnGenerateOtp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/etEmailId"
+            android:layout_marginTop="16dp"
+            android:text="Generate OTP"/>
+
+            <EditText
+                android:id="@+id/etOTP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:inputType="number"
+                android:hint="Enter your OTP"/>
+        <!-- Verify OTP and Register Button -->
+        <Button
+            android:id="@+id/btnVerifyAndRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/etOTP"
+            android:layout_marginTop="16dp"
+            android:text="Verify OTP and Register"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

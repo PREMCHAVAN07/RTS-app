@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "616732823029",
+    "project_id": "rtsregistration",
+    "storage_bucket": "rtsregistration.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:616732823029:android:70d85f09d06d73bf97a4bc",
+        "android_client_info": {
+          "package_name": "com.example.rtsragistration"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPMs2r2mLzN6nD-DCvfjaA-LIicCLtPIs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

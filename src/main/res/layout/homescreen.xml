@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomescreenActivity">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Registration And Verification"
+        android:textSize="20sp"
+        android:background="#9160EA"
+
+
+        />
+
+
+
+
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_weight="1"
+
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+
+        android:layout_below="@+id/outgoing"
+        android:background="#FFC107"
+        android:layout_marginTop="20dp"
+        android:text="Register A Product"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+
+        android:layout_below="@+id/outgoing"
+        android:background="#FFC107"
+        android:layout_marginTop="20dp"
+        android:text="click here for verification"
+        />
+
+
+</LinearLayout>
